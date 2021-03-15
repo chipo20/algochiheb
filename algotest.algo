@@ -1,0 +1,27 @@
+ALGORITHM charTEST
+VAR
+test:STRING:='chiheb dribek.';
+a:integer:=0 ; //number of words in the sentence  without space
+
+BEGIN
+test:=test.length;
+for ( i =0,test=str.length;i<test ;i++  )
+{
+    if (test[i] !== ' ')
+    a++;
+}
+
+function getVowels(test) {
+  var b = 0;
+
+  
+  for (var i = 0; i <= test.length - 1; i++) {
+
+
+ if (test.charAt(i) == "a" || test.charAt(i) == "e" || test.charAt(i) == "i" || test.charAt(i) == "o" || test.charAt(i) == "u") {
+      b += 1;
+ }
+  }
+
+
+END
